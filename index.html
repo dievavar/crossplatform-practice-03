@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Electron File Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Файловый менеджер Electron</h1>
+
+    <p>Студент: Диева Варвара Владимировна</p>
+    <p>Группа: ТРПО23-1</p>
+
+    <h2>Содержимое каталога</h2>
+
+    <button id="show-directory">
+      Показать содержимое каталога
+    </button>
+
+    <button id="choose-directory">
+      Выбрать каталог
+    </button>
+
+    <p id="selected-path">
+      Каталог не выбран
+    </p>
+
+    <ul id="file-list"></ul>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
