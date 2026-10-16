@@ -1,0 +1,16 @@
+{
+  "name": "electron-file-explorer",
+  "version": "1.0.0",
+  "description": "Кросс-платформенный файловый менеджер на Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Диева Варвара Владимировна",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.8.0"
+  }
+}
